@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource auth="Container"
+    	name="jdbc/raid" 
+    	driverClassName = "org.postgresql.Driver"
+    	type = "javax.sql.DataSource"  
+    	url = "jdbc:postgresql://localhost:5433/demo" 
+    	username = "postgres" 
+    	password = "password" 
+    	loginTimeout = "10" 
+    	testOnBorrow = "true" 
+    	/>
+</Context>
